@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
     --primary: #cd168a;
-    --light: #F1F8FF;
-    --dark: #0000;
+    --light: #ffff;
+    --dark: #818181;
 }
 
 .fw-medium {
@@ -84,11 +84,12 @@
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
+    font-weight: 800;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
+.navbar-dark .navbar-nav {
+    color: #818181;
 }
 
 @media (max-width: 991.98px) {
@@ -231,7 +232,7 @@
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../logos/comp.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
