@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #cd168a;
+    --primary: #16a0d1;
     --light: #ffff;
-    --dark: #818181;
+    --dark: #000;
 }
 
 .fw-medium {
@@ -89,7 +89,7 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav {
-    color: #818181;
+    color: #000;
 }
 
 @media (max-width: 991.98px) {
@@ -232,7 +232,7 @@
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../logos/comp.jpeg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/room-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
