@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hotelier - Hotel HTML Template</title>
+    <title>Bky properties</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="./logos/bky3.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +35,8 @@
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <div id="spinner" class="show  position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border" style="color: #16a0d1;" style="width: 3rem; height: 3rem; color: #16a0d1;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
@@ -45,43 +45,45 @@
         <!-- Header Start -->
         <div class="container-fluid bg-dark px-0">
             <div class="row gx-0">
-                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                <div class="col-lg-3 d-none d-lg-block" style="background-color: #16a0d1;">
                     <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                        <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                        <!--<h1 class="m-0 text-light text-uppercase" style="font-weight: 800;">ELLAH </h1>-->
+                        <img src="logos/bky3.png" width="100" height="auto">
                     </a>
                 </div>
                 <div class="col-lg-9">
                     <div class="row gx-0 bg-white d-none d-lg-flex">
                         <div class="col-lg-7 px-5 text-start">
                             <div class="h-100 d-inline-flex align-items-center py-2 me-4">
-                                <i class="fa fa-envelope text-primary me-2"></i>
-                                <p class="mb-0">info@example.com</p>
+                                <i class="fa fa-envelope me-2" style="color: #16a0d1;"></i>
+                                <a href="mailto:" style="color: black;"><p class="mb-0">xxx@gmail.com</p></a>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
-                                <i class="fa fa-phone-alt text-primary me-2"></i>
-                                <p class="mb-0">+012 345 6789</p>
+                                <i class="fa fa-phone-alt me-2" style="color: #16a0d1;"></i>
+                                <a href="tel:"><p class="mb-0" style="color: black;">+254-743-488-746</p></a>
                             </div>
                         </div>
                         <div class="col-lg-5 px-5 text-end">
                             <div class="d-inline-flex align-items-center py-2">
-                                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-facebook-f" style="color: #16a0d1;"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-twitter" style="color: #16a0d1;"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-linkedin-in" style="color: #16a0d1;"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-instagram" style="color: #16a0d1;"></i></a>
+                                <a class="" href=""><i class="fab fa-youtube" style="color: #16a0d1;"></i></a>
                             </div>
                         </div>
                     </div>
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0" style="background-color: #16a0d1;">
                         <a href="index.html" class="navbar-brand d-block d-lg-none">
-                            <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                            <!--<h1 class="m-0 text-light text-uppercase">BKY PROPERTIES</h1>-->
+                            <img src="logos\bky3.png" width="150" height="auto">
                         </a>
                         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
-                        </button>
+                        </button> 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0">
-                                <a href="index.html" class="nav-item nav-link">Home</a>
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
                                 <a href="about.html" class="nav-item nav-link">About</a>
                                 <a href="service.html" class="nav-item nav-link">Services</a>
                                 <a href="room.html" class="nav-item nav-link">Rooms</a>
@@ -93,9 +95,9 @@
                                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                     </div>
                                 </div>
-                                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                                <a href="contact.html" class="nav-item nav-link">Contact</a>
                             </div>
-                            <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>
+                            <button style="background-color: #ffff;" class="btn rounded-0 py-4 px-md-5 d-none d-lg-block" ><a href="#" style="color: #16a0d1; font-size: smaller;">BKY PROPERTIES<i class="fa fa-arrow-right ms-3"></i></a></button>
                         </div>
                     </nav>
                 </div>
@@ -105,21 +107,22 @@
 
 
         <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/contact.jpg);">
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center pb-5">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item"><a href="#" style="color: #16a0d1;">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#" style="color: #16a0d1;">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page" >Contact</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
+
 
 
         <!-- Booking Start -->
@@ -132,12 +135,12 @@
                                 <div class="col-md-3">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker" required/>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -159,36 +162,35 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <button class="btn btn-primary w-100">Submit</button>
+                            <button class="btn w-100" style="background-color: #16a0d1; color: #ffff;">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Booking End -->
+        </div>        <!-- Booking End -->
 
 
         <!-- Contact Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">Contact Us</h6>
-                    <h1 class="mb-5"><span class="text-primary text-uppercase">Contact</span> For Any Query</h1>
+                    <h6 class="section-title text-center text-uppercase" style="color: #16a0d1;">Contact Us</h6>
+                    <h1 class="mb-5"><span class=" text-uppercase" style="color: #16a0d1;">Contact</span> For Any Query</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="row gy-4">
                             <div class="col-md-4">
-                                <h6 class="section-title text-start text-primary text-uppercase">Booking</h6>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>book@example.com</p>
+                                <h6 class="section-title text-start text-uppercase" style="color: #16a0d1;">Booking</h6>
+                                <p><i class="fa fa-envelope-open me-2" style="color: #16a0d1;"></i>book@example.com</p>
                             </div>
                             <div class="col-md-4">
-                                <h6 class="section-title text-start text-primary text-uppercase">General</h6>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</p>
+                                <h6 class="section-title text-start text-uppercase" style="color: #16a0d1;">General</h6>
+                                <p><i class="fa fa-envelope-open me-2" style="color: #16a0d1;"></i>info@example.com</p>
                             </div>
                             <div class="col-md-4">
-                                <h6 class="section-title text-start text-primary text-uppercase">Technical</h6>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>tech@example.com</p>
+                                <h6 class="section-title text-start text-uppercase" style="color: #16a0d1;">Technical</h6>
+                                <p><i class="fa fa-envelope-open me-2" style="color: #16a0d1;"></i>tech@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -227,7 +229,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        <button class="btn btn-primary w-100 py-3" type="submit" style="background-color: #16a0d1;">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -245,10 +247,10 @@
                 <div class="col-lg-10 border rounded p-1">
                     <div class="border rounded text-center p-1">
                         <div class="bg-white rounded text-center p-5">
-                            <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                            <h4 class="mb-4">Subscribe Our <span class= "text-uppercase" style="color: #16a0d1;">Newsletter</span></h4>
                             <div class="position-relative mx-auto" style="max-width: 400px;">
-                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email" required>
+                                <button type="button" class="btn py-2 px-3 position-absolute top-0 end-0 mt-2 me-2" style="background-color: #16a0d1; color: #ffff;">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -259,22 +261,22 @@
         
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s" style="background-color: black;">
             <div class="container pb-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
-                        <div class="bg-primary rounded p-4">
-                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">Hotelier</h1></a>
-                            <p class="text-white mb-0">
-								Download <a class="text-dark fw-medium" href="https://htmlcodex.com/hotel-html-template-pro">Hotelier – Premium Version</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
-							</p>
+                        <div class=" rounded p-4" style="background-color: #16a0d1;">
+                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">BKY PROPERTIES</h1></a>
+                            <!--<p class="text-white mb-0">
+								Download <a class="text-dark fw-medium" href="https://htmlcodex.com/hotel-html-template-pro">ELLAH PROPERTIES – Premium Version</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+							</p>-->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <h6 class="section-title text-start text-uppercase mb-4" style="color: #16a0d1;">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Lenana Court, House No 4, Off Lenana Road, Nairobi Kenya</p>
+                        <a href="tel:+254743488746"><p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+254-743-488-746</p></a>
+                        <a href="mailto:"><p class="mb-2"><i class="fa fa-envelope me-3"></i>xxx@gmail.com</p></a>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -285,20 +287,20 @@
                     <div class="col-lg-5 col-md-12">
                         <div class="row gy-5 g-4">
                             <div class="col-md-6">
-                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
-                                <a class="btn btn-link" href="">About Us</a>
-                                <a class="btn btn-link" href="">Contact Us</a>
+                                <h6 class="section-title text-start text-uppercase mb-4" style="color: #16a0d1;">Company</h6>
+                                <a class="btn btn-link" href="about.html">About Us</a>
+                                <a class="btn btn-link" href="contact.html">Contact Us</a>
                                 <a class="btn btn-link" href="">Privacy Policy</a>
                                 <a class="btn btn-link" href="">Terms & Condition</a>
                                 <a class="btn btn-link" href="">Support</a>
                             </div>
                             <div class="col-md-6">
-                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                                <a class="btn btn-link" href="">Food & Restaurant</a>
-                                <a class="btn btn-link" href="">Spa & Fitness</a>
-                                <a class="btn btn-link" href="">Sports & Gaming</a>
-                                <a class="btn btn-link" href="">Event & Party</a>
-                                <a class="btn btn-link" href="">GYM & Yoga</a>
+                                <h6 class="section-title text-start text-uppercase mb-4" style="color: #16a0d1;">Services</h6>
+                                <a class="btn btn-link" href="service.html">Food & Restaurant</a>
+                                <a class="btn btn-link" href="service.html">Spa & Fitness</a>
+                                <a class="btn btn-link" href="service.html">Sports & Gaming</a>
+                                <a class="btn btn-link" href="service.html">Event & Party</a>
+                                <a class="btn btn-link" href="service.html">GYM & Yoga</a>
                             </div>
                         </div>
                     </div>
@@ -308,14 +310,12 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            &copy; <a class="border-bottom" href="#">Bky properties</a>, All Right Reserved | 2022.
+							Designed By <a class="border-bottom" href="https://mugita.netlify.app">Kay Raph</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
+                                <a href="index.html">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>
                                 <a href="">FQAs</a>
@@ -329,7 +329,7 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top" style="background-color: #16a0d1; color: #ffff;"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
